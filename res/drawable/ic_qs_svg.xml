@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="253dp"
+    android:height="139dp"
+    android:viewportWidth="253"
+    android:viewportHeight="139">
+  <path
+      android:pathData="M10,97L243,97A10,10 0,0 1,253 107L253,129A10,10 0,0 1,243 139L10,139A10,10 0,0 1,0 129L0,107A10,10 0,0 1,10 97z"
+      android:fillColor="@color/colorAccent"/>
+  <path
+      android:pathData="M30,118m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+      android:fillColor="@color/Card"/>
+  <path
+      android:pathData="M63,112L168,112"
+      android:strokeWidth="6"
+      android:fillColor="#00000000"
+      android:strokeColor="@color/Card"/>
+  <path
+      android:pathData="M63,124L139,124"
+      android:strokeWidth="6"
+      android:fillColor="#00000000"
+      android:strokeColor="@color/Card"/>
+  <path
+      android:pathData="M0,0H253V78C253,83.523 248.523,88 243,88H10C4.477,88 0,83.523 0,78V0Z"
+      android:fillColor="@color/Card"/>
+  <path
+      android:pathData="M35.5,43.5m-17.5,0a17.5,17.5 0,1 1,35 0a17.5,17.5 0,1 1,-35 0"
+      android:fillColor="@color/colorAccent"/>
+  <path
+      android:pathData="M80.5,43.5m-17.5,0a17.5,17.5 0,1 1,35 0a17.5,17.5 0,1 1,-35 0"
+      android:fillColor="@color/colorAccent"/>
+  <path
+      android:pathData="M172.5,43.5m-17.5,0a17.5,17.5 0,1 1,35 0a17.5,17.5 0,1 1,-35 0"
+      android:fillColor="@color/CardDark"/>
+  <path
+      android:pathData="M218.5,43.5m-17.5,0a17.5,17.5 0,1 1,35 0a17.5,17.5 0,1 1,-35 0"
+      android:fillColor="@color/colorAccent"/>
+  <path
+      android:pathData="M126.5,43.5m-17.5,0a17.5,17.5 0,1 1,35 0a17.5,17.5 0,1 1,-35 0"
+      android:fillColor="@color/CardDark"/>
+</vector>

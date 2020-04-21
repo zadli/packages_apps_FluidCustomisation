@@ -25,7 +25,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import java.util.ArrayList;
 import java.util.List;
 
-public class QuickSettingsPanel extends SettingsPreferenceFragment implements
+public class QSPFragment extends SettingsPreferenceFragment implements
         Indexable {
 
     @Override
@@ -49,7 +49,7 @@ public class QuickSettingsPanel extends SettingsPreferenceFragment implements
                     ArrayList<SearchIndexableResource> result =
                             new ArrayList<SearchIndexableResource>();
                      SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.quick_settings;
+                    sir.xmlResId = R.xml.qsp_settings;
                     result.add(sir);
                     return result;
                 }

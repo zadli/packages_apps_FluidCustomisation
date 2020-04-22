@@ -41,8 +41,8 @@ public class QSFragment extends MainFragment {
     private void inflateList() {
         // Register all top level fragments
         listOfFragments.clear();
-        listOfFragments.add(new FrameModel(R.drawable.ic_launcher_background, "QS panel", new QSPFragment()));
-        listOfFragments.add(new FrameModel(R.drawable.ic_launcher_background, "Notifications", new BlankFragment()));
+        listOfFragments.add(new FrameModel(R.drawable.ic_fluid_qsp, "QS panel", new QSPFragment()));
+        listOfFragments.add(new FrameModel(R.drawable.ic_fluid_notifications, "Notifications", new BlankFragment()));
     }
 
     @Nullable

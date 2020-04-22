@@ -16,4 +16,10 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/qspsettings_title" >
 
+        <com.fluid.customization.preference.SystemSettingSwitchPreference
+            android:key="qs_blur"
+            android:title="@string/blur_quicksettings"
+            android:summary="@string/blur_quicksettings_subtitle"
+            android:defaultValue="false" />
+
 </PreferenceScreen>

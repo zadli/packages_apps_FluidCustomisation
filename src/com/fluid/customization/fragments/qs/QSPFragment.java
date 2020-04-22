@@ -1,4 +1,4 @@
-package com.fluid.customization.fragments.qsp;
+package com.fluid.customization.fragments.qs;
 
 import android.app.Activity;
 import android.content.Context;

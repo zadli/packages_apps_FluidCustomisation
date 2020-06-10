@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fluid Customisation</string>
+    <string name="title_status_bar">Status Bar</string>
+    <string name="title_qs">QS</string>
+    <string name="title_navigation">Navigation</string>
+    <string name="title_gestures">Gestures</string>
+    <string name="title_lockscreen">Lock Screen</string>
+</resources>

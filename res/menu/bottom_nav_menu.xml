@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_status_bar"
+        android:icon="@drawable/ic_status_bar"
+        android:title="@string/title_status_bar" />
+
+    <item
+        android:id="@+id/navigation_qs"
+        android:icon="@drawable/ic_qs"
+        android:title="@string/title_qs" />
+
+    <item
+        android:id="@+id/navigation_navigation"
+        android:icon="@drawable/ic_navigation"
+        android:title="@string/title_navigation" />
+
+    <item
+        android:id="@+id/navigation_gestures"
+        android:icon="@drawable/ic_gestures"
+        android:title="@string/title_gestures" />
+
+    <item
+        android:id="@+id/navigation_lockscreen"
+        android:icon="@drawable/ic_lockscreen"
+        android:title="@string/title_lockscreen" />
+
+</menu>

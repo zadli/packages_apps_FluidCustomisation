@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_status_bar">
+
+    <fragment
+        android:id="@+id/navigation_status_bar"
+        android:name="com.fluid.customisation.ui.statusbar.StatusBarFragment"
+        tools:layout="@layout/fragment_status_bar" />
+
+    <fragment
+        android:id="@+id/navigation_qs"
+        android:name="com.fluid.customisation.ui.qs.QSFragment"
+        tools:layout="@layout/fragment_qs" />
+
+    <fragment
+        android:id="@+id/navigation_navigation"
+        android:name="com.fluid.customisation.ui.navigation.NavigationFragment"
+        tools:layout="@layout/fragment_navigation" />
+
+    <fragment
+        android:id="@+id/navigation_gestures"
+        android:name="com.fluid.customisation.ui.gestures.GesturesFragment"
+        tools:layout="@layout/fragment_navigation" />
+
+    <fragment
+        android:id="@+id/navigation_lockscreen"
+        android:name="com.fluid.customisation.ui.lockscreen.LockScreenFragment"
+        tools:layout="@layout/fragment_navigation" />
+</navigation>

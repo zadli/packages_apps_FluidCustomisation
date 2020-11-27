@@ -22,6 +22,7 @@
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="accent_color"
             android:title="@string/rgb_accent"
+            android:summary="@string/rgb_accent_summary"
             settings:defaultColorValue="0x72BBFF"
             android:persistent="false" />
 
@@ -29,10 +30,6 @@
             android:key="android.theme.customization.accent_color"
             android:title="@string/accent_prebuilt"
             android:summary="@string/accent_prebuilt_summary" />
-
-    <PreferenceCategory
-        android:key="theme_customization_category"
-        android:title="@string/themes_ui">
 
         <ListPreference
             android:key="android.theme.customization.font"
@@ -46,7 +43,4 @@
 	    android:key="system_icons"
             android:title="@string/customisation_systemicons"
             android:fragment="com.fluid.customisation.fragments.SystemTheme" />
-
-    </PreferenceCategory>
-
 </PreferenceScreen>
